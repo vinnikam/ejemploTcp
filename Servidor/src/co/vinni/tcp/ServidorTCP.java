@@ -79,7 +79,7 @@ class EscucharServidor extends Thread {
 	} catch (IOException e) {
 	} finally {
 	    try {
-        socket.close();
+                socket.close();
 	    } catch(IOException e) {}
 	}
     }
